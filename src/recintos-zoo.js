@@ -1,4 +1,4 @@
-export class RecintosZoo {
+class RecintosZoo {
     constructor() {
         //Descrição de cada recinto
         this.recintos = [
@@ -65,4 +65,4 @@ export class RecintosZoo {
             return { erro: "Não há recinto viável" };
         }
     }
-}
+}export { RecintosZoo as RecintosZoo };
